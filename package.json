@@ -1,9 +1,14 @@
 {
   "name": "react-native-webgl-view-shot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Native WebGL extension to rasterize a view as a GL Texture",
   "main": "src/index.js",
-  "keywords": ["react-native", "react-native-webgl", "view-shot", "rasterize"],
+  "keywords": [
+    "react-native",
+    "react-native-webgl",
+    "view-shot",
+    "rasterize"
+  ],
   "author": "Gaëtan Renaudeau <renaudeau.gaetan@gmail.com>",
   "license": "MIT",
   "repository": {
