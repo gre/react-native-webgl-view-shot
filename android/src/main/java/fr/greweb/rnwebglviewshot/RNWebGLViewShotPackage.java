@@ -1,5 +1,5 @@
 
-package fr.greweb.reactnativeviewshot;
+package fr.greweb.rnwebglviewshot;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -13,7 +13,7 @@ import com.facebook.react.bridge.JavaScriptModule;
 public class RNWebGLViewShotPackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
-      return Arrays.<NativeModule>asList(new RNWebGLViewShotModule(reactContext));
+      return Arrays.<NativeModule>asList(new RNWebGLTextureViewLoader(reactContext));
     }
 
     // Deprecated RN 0.47
