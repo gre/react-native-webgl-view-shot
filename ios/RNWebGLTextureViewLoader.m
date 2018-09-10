@@ -2,6 +2,9 @@
 #import <React/RCTImageSource.h>
 #import <React/RCTBridge.h>
 #import <React/RCTUIManager.h>
+#if __has_include(<React/RCTUIManagerUtils.h>)
+#import <React/RCTUIManagerUtils.h>
+#endif
 #import "RNWebGLTextureViewLoader.h"
 #import "RNWebGLTextureView.h"
 
